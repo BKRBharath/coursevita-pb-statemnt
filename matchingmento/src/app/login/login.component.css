@@ -1,0 +1,33 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 160px;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  .container-fluid{
+    background-image: url('https://www.murdoch.sg/wp-content/uploads/coach-mentor.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+     
+  }
+  .win{
+    color: white;
+  }
+  .rounded-circle{
+    margin-left: 190px;
+  }
+  .adj{
+    margin-left: 200px;
+    color: rgb(189, 220, 220);
+  }
+  .res{
+    color: white;
+  }

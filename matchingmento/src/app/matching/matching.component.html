@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <!-- src/app/components/match-and-schedule/match-and-schedule.component.html -->
+            <div>
+                <h2>Available Matches</h2>
+                <ul>
+                    <li *ngFor="let match of matches">
+                        <span>{{ match.mentorName }} - {{ match.expertise }}</span>
+                        <button (click)="scheduleSession(match.id)">Schedule Session</button>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+</div>

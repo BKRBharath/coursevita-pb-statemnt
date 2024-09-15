@@ -1,0 +1,33 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 160px;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  .container-fluid{
+    background-image: url('https://mentoringcentral.net/wp-content/uploads/2022/06/shutterstock_797393017-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+     
+  }
+  .win{
+    color: white;
+  }
+  .rounded-circle{
+    margin-left: 190px;
+  }
+  .adj{
+    margin-left: 200px;
+    color: rgb(189, 220, 220);
+  }
+  .acc{
+    color: white;
+  }

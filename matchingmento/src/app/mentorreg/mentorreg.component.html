@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <!-- src/app/components/mentor-registration/mentor-registration.component.html -->
+            <form (ngSubmit)="register()">
+                <input [(ngModel)]="formData.name" name="name" placeholder="Name" required />
+                <input [(ngModel)]="formData.email" name="email" type="email" placeholder="Email" required />
+                <textarea [(ngModel)]="formData.expertise" name="expertise" placeholder="Expertise" required></textarea>
+                <input [(ngModel)]="formData.availability" name="availability" placeholder="Availability" required />
+                <textarea [(ngModel)]="formData.teachingStyle" name="teachingStyle" placeholder="Teaching Style"
+                    required></textarea>
+                <button type="submit">Register</button>
+            </form>
+
+        </div>
+    </div>
+</div>

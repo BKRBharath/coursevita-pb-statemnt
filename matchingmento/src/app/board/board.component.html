@@ -1,0 +1,40 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            
+        <aside class="laxman">
+            <p> WELCOME </p>
+            <a routerLink="/">
+              <i class="fa-solid fa-house"></i>
+              Profile
+            </a>
+            <a routerLink="/mentor">
+              <i class="fa-solid fa-volleyball"></i>
+              
+              Mentors
+            </a>
+            <a routerLink="/student1">
+              <i class="fa-solid fa-music"></i>
+              Students form
+            </a>
+            <!-- <a routerLink="/admin/content">
+              <i class="fa-solid fa-pen"></i>
+              CONTENT WRITING
+            </a>
+            <a routerLink="/admin/language">
+              <i class="fa-solid fa-language"></i>
+              LANGUAGES
+            </a> -->
+            <a routerLink="" (click)="logout()">
+              <i class="fa-solid fa-right-from-bracket"></i>
+              LOGOUT
+            </a>
+          </aside>
+    
+        </div>
+
+        <div class="col-md-8">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
